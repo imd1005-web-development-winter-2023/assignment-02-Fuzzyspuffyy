@@ -5,45 +5,22 @@
  
    /****** Header section *******/
    .header {
-    background-color: #0d1b2a;
-    padding: 2rem 0rem 2rem 0rem;
+    nav ul {
+      display: flex;
+      margin: 0 -10px;
+    }
+    
+    nav li {
+      margin: 0 10px;
+    }
+    
+    .push-right {
+      margin-left: auto;
+    }
+    background-color:;
+    padding: 2rem 0rem 2rem 0rem;}
+  
 
-  }
-  
-  .header--bar {
-    padding: 2rem 0rem 2rem 0rem;
-  
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .header--bar--logo {
-    height: 3.5rem;
-    width: 3.5rem;
-  }
-  
-  .header--bar--nav ul {
-    display: flex;
-    gap: 2rem;
-  
-    list-style-type: none;
-  }
-  
-  .header--bar--nav ul li {
-    font-weight: 800;
-  }
-  
-  .header--bar--nav ul li a {
-    color: #e0e1dd;
-    text-decoration: none;
-  }
-  
-  .header--bar--nav ul li a:hover {
-    text-decoration: underline;
-  }
   
   /****** Screen reader text *******/
   .sr-only {
@@ -629,7 +606,7 @@ body{
 }
 
 .add {
-  
+
   font-size: 25px;
   position: relative;
   left: 4px;
