@@ -1,29 +1,441 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
+<head>
+  <!-- Set the page title -->
+  <title>Assignment 02</title>
 
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Set the charset we're using to UTF-8 -->
+  <meta charset="UTF-8" />
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
+  <!-- Set the screens default zoom / scale to 1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!--
+  <!-- Specifies the document mode for Internet Explorer -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- We are using a CSS Reset file to standardize browser default css -->
+  <link rel="stylesheet" href="reset.css" />
+
+  <!-- This is where all of our awesome CSS code goes -->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <!--
 
       YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
 
     -->
-  </body>
+
+  <!-- ======= Header======= -->
+  <header>
+    <!-- Top-Bar -->
+    <div class=" top-bar">
+      <img src="Images/Mylogo.JPG" alt="" />
+    </div>
+
+    <ul class="type">
+      <li><a href="#"><ion-icon name="chatbox-ellipses-outline"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="call-outline"></ion-icon></a></li>
+      <li class="space"><a href="#"><ion-icon name="call-outline"></ion-icon></a></li>
+    </ul>
+
+
+
+
+
+    <!-- /*ShopButton*/   -->
+
+    <button class="btn11">Shop</button>
+
+
+    <nav><!-- /*Menu*/   -->
+      <ul class="menu">
+        <li><a href="#" class="border">Home</a></li>
+        <li><a href="#" class="border">About us</a></li>
+        <li><a href="#" class="border">Blog</a></li>
+        <li><a href="#" class="border">Contact</a></li>
+        <li><a href="#" class="border"> Get Involved</a></li>
+        <li><a href="#" class="border"> Services</a></li>
+        <li><button class="btn11">French</button></li>
+        <li><a href="#" class="xyz"><ion-icon name="search-circle-outline"></ion-icon></a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <!-- ======= DogsPaws======= -->
+
+    <our-team>
+
+      <section class="section1"></section>
+    </our-team>
+
+
+
+    <section class="section2">
+      <div class="image">
+        <img src="Images/Mylogo.JPG" alt="" />
+      </div>
+      <div class="grid--2-cols">
+        <div>
+          <button class="btn1">Learn More</button>
+        </div>
+        <div>
+          <h1>We Love the Animals</h1>
+        </div>
+        <div class="col1">
+          <img src="Images/DogHero.JPG" alt="" />
+        </div>
+        <div class="col">
+          <h3>We Love the Animals</h3>
+          <img src="Images/DogHero2.JPG" alt="" />
+        </div>
+
+        <div class="section2-bottom-button">
+          <button class="btn1">Donate</button>
+          <button class="btn1">Volenter</button>
+          <button class="btn1">Adopt</button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ======= Donation ======= -->
+    <div class="container-fluid bg-primary bg-appointment my-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-6 py-5">
+            <div class="py-5">
+              <h1 class="display-5 text-white mb-4">
+                We Are A Proudly a non Profit.
+              </h1>
+              <p class="text-white mb-0">
+                Thousands of People you help us stand up for all animals We realy solly on your Donations,
+                You can make a difference Right Now.
+                will you give today?
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn"
+              data-wow-delay="0.6s">
+              <button class="btn btn-primary" style="width: 200px; height: 50px; margin-left: 100px;">Donate</button>
+              <h1 class="text-white mb-4">Secure Donation</h1>
+              <form>
+                <div class="row g-3">
+                  <div class="col-12 col-sm-6">
+                    <select class="form-select bg-light border-0" style="height: 55px">
+                      <option selected>Make a One Time Gift</option>
+                      <option value="1">$10</option>
+                      <option value="2">$25</option>
+                      <option value="3">$50</option>
+                      <option value="4">$100</option>
+                      <option value="5">$250</option>
+                      <option value="6">$500</option>
+                    </select>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <select class="form-select bg-light border-0" style="height: 55px">
+                      <option selected>Choose Payment Type</option>
+                      <option value="1">Visa</option>
+                      <option value="2">PayPal</option>
+                      <option value="3">Bank Transfer</option>
+                    </select>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name"
+                      style="height: 55px" />
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email"
+                      style="height: 55px" />
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <div class="date" id="date1" data-target-input="nearest">
+                      <input type="text" class="form-control bg-light border-0 datetimepicker-input"
+                        placeholder="Name Your Own Amount" data-target="#date1" data-toggle="datetimepicker"
+                        style="height: 55px" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <div class="time" id="time1" data-target-input="nearest">
+                      <input type="text" class="form-control bg-light border-0 datetimepicker-input"
+                        placeholder="Appointment Time" data-target="#time1" data-toggle="datetimepicker"
+                        style="height: 55px" />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-dark w-100 py-3" type="submit">
+                      Donate
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- ======= Newsleter ======= -->
+
+    <div class="parent-wrapper">
+      <span class="close-btn glyphicon glyphicon-remove"></span>
+      <div class="subscribe-wrapper">
+        <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
+        <input type="email" name="email" class="subscribe-input" placeholder="Your e-mail">
+        <div class="submit-btn">SUBMIT</div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section>
+      <div>
+        <div class="con">
+          <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+              <div class="section-title">
+                Contact
+              </div>
+
+              <p>
+                Contact Us
+              </p>
+            </div>
+
+            <div style="width: 100%">
+              <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                  href="https://www.maps.ie/distance-area-calculator.html">measure distance on map</a>
+              </iframe>
+            </div>
+
+            <div class="row mt-5">
+              <div class="col-lg-4">
+                <div class="info">
+                  <div class="address">
+                    <i class="bi bi-geo-alt"></i>
+                    <h4>Location:</h4>
+                    <p>1 Grafton Street, Dublin, Ireland</p>
+                  </div>
+
+                  <div class="email">
+                    <i class="bi bi-envelope"></i>
+                    <h4>Email:</h4>
+                    <a style="text-decoration: none !important; color: black"
+                      href="mailto:HumanAnimalsAssociates@gmail.com">
+                      <p>HumanAnimalsAssociates@gmail.com</p>
+                    </a>
+                  </div>
+
+                  <div class="phone">
+                    <i class="bi bi-phone"></i>
+                    <h4>Call:</h4>
+                    <a style="text-decoration: none !important; color: black" href="tel:+1(647)708-4542">
+                      <p>+1 (647) 708-4542</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                      required />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <br />
+
+                <div class="text-center">
+                  <button class="btn btn-warning" type="submit">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ======= Footer ======= -->
+
+
+
+  <footer>
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h2>
+                  <img src="img/images.JPG" alt="" style="
+                             height: 53px;
+          width: 309px;
+          margin-left: -97px;
+          margin-top: -49px;
+                            " /><span></span>
+                </h2>
+                <br /><br />
+                <p>
+                  Grafton Street, Dublin, Ireland <br />
+                  <br /><br />
+                  <a style="text-decoration: none !important; color: white" href="tel:+1(647)708-4542">
+                    <strong>Phone: </strong>+1(647)708-4542
+                  </a><br />
+
+                <p><strong>Email: </strong>HumanAnimalsAssociates@gmail.com
+                  <a style="text-decoration: none !important; color: white"
+                    href="mailto:HumanAnimalsAssociates@gmail.com">
+                  </a>
+                </p>
+
+
+                <div class="social-links mt-3">
+                  <a href="https://twitter.com/login" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://facebook.com" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="https://instagram.com" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="https://googleplus.com" class="google-plus"><i class="bx bxl-skype"></i></a>
+                  <a href="https://linkedin.com" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Pet Finder</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Get Invoived</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Our Services</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 footer-newsletter" style="margin-left: 285px;">
+              <h4>Our Newsletter</h4>
+              <p>
+                As a provider of web design and development services, we take a
+                customer-centric approach to our work. Our staff are trained to
+                uphold this work ethic.
+              </p>
+              <form>
+                <input type="email" name="email" /><input type="submit" value="Subscribe" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Human Animals Associates</span></strong>
+        </div>
+      </div>
+    </footer>
+
 </html>
+
+
+<!-- Links and resorses I used to helpe
+
+      Header and Nave:
+      https://www.youtube.com/watch?v=HbBMp6yUXO0
+https://www.youtube.com/watch?v=UYvwb6pBvg8
+https://www.youtube.com/watch?v=xSTVTT3cx0w
+https://www.youtube.com/watch?v=R5aRUdM7Iio
+https://www.youtube.com/watch?v=VRrEquQfh88
+Responsive Flexbox Navigation Bar with Logo | Navbar CSS Tutorial
+https://www.youtube.com/watch?v=F3pSGnhV-H8
+https://www.youtube.com/watch?v=Az3dqHD9omY
+
+Hero section:
+https://www.youtube.com/watch?v=LJbkLdtEW00
+https://www.youtube.com/watch?v=phWxA89Dy94
+https://www.youtube.com/watch?v=fs923Mu5EXY
+https://www.youtube.com/watch?v=kJb6BZwqCGM
+
+Donation:
+https://www.youtube.com/watch?v=cce_70pxbqw
+https://www.youtube.com/watch?v=D0L3nZo-Azw
+https://www.youtube.com/watch?v=UG45sVvR6GU
+https://www.youtube.com/watch?v=kGA9RIFiyIE
+
+Hero section:
+
+
+Newsletter Subscription:
+https://levelup.gitconnected.com/24-newsletter-signup-forms-for-website-15736e597b7d
+https://www.youtube.com/watch?v=QmG9lSEhbwc
+
+Maps and contact:
+https://www.maps.ie/create-google-map/
+https://www.youtube.com/watch?v=KIC0OK9nKXY
+https://www.youtube.com/watch?v=p9Ubg6Mqq6w
+
+
+
+Footer:
+https://www.youtube.com/watch?v=mjvOlyeS2PQ
+https://www.youtube.com/watch?v=lLdzlLL33G8
+https://www.youtube.com/watch?v=YOb67OKw62s
+https://www.youtube.com/watch?v=FRRlFLfdvBE
+https://www.youtube.com/watch?v=zdA3qZNH1vc
+https://www.youtube.com/watch?v=zdA3qZNH1vc
+https://www.youtube.com/watch?v=QxQEvti5jbE
+https://www.youtube.com/watch?v=w05j5Gi0Llk
+
+
+
+
+Teaching My self:
+4: Create Titles and Text Using HTML | Learn HTML and CSS | Learn HTML & CSS Full Course
+https://www.youtube.com/watch?v=fNcJuPIZ2WE
+https://www.youtube.com/watch?v=3elGSZSWTbM
+https://www.youtube.com/watch?v=SHIMUoAJHYU
+https://www.youtube.com/watch?v=3elGSZSWTbM
+https://www.youtube.com/watch?v=8bZ4RPjOPYE
+https://www.youtube.com/watch?v=1YO_5jXC-bo
+https://www.youtube.com/watch?v=YNSnugnQYiI
+https://www.youtube.com/watch?v=ZJqchijLuLE
+https://www.youtube.com/watch?v=ZYV6dYtz4HA
+https://www.youtube.com/watch?v=KUmuiqV1xME&list=PLyuRouwmQCjncCz8JChyPNRBvm2ONGYa2
+https://www.youtube.com/watch?v=XXjMFRvA_l0
+https://www.geeksforgeeks.org/how-to-create-a-hero-image-using-html-and-css/
+    -->
